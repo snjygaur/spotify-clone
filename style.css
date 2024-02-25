@@ -1,0 +1,22 @@
+body{
+    background-color:antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display:flex;
+   align-items:center;
+    list-style-type: none;
+    background-color:black;
+    height:65px;
+    color:white;
+}
+.brand img{
+    width:50px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+}
