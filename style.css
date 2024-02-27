@@ -12,11 +12,68 @@ nav ul{
     background-color:black;
     height:65px;
     color:white;
+  
 }
 .brand img{
     width:50px;
+    padding:0px 10px;
 }
 .brand{
     display: flex;
     align-items: center;
+    font-weight:bolder;
+    font-size: 1.3rem;
+}
+nav ul li{
+    padding: 0px 10px;
+}
+.bottom{
+    background-color: black;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+   
+   
+}
+.container{
+    min-height:75vh;
+    background-color: black;
+    color:white;
+    width:85%;
+    display:flex;
+    margin:23px auto;
+    border-radius: 12px;
+    padding:43px;
+    background-image: url("desktop-wallpaper-dark-mahadev-mahadev-dark-thumbnail.jpg");
+    background-size: fixed;
+}
+
+#radi{
+    width:100%;
+    cursor: pointer;
+  
+}
+.icons{
+    margin-top: 23px;
+   
+}
+.icons i{
+    cursor:pointer;
+ }
+ .container .songlist img{ 
+    width:50%;
+   height: 65vh;
+}  
+.songItem{
+    width:50%;
+    height: 50px;
+    display: flex;
+    background-color: white;
+
+}
+.songItem img{
+    height: 50px;
 }
